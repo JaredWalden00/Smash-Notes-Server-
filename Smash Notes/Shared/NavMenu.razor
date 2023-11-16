@@ -1,0 +1,17 @@
+﻿﻿<header class="bg-gray-300 dark:bg-gray-700 px-10 py-4 shadow-lg flex items-center justify-between">
+    <div class="flex items-center">
+        <NavLink ActiveClass="text-purple-800 dark:text-purple-400" href="" Match="NavLinkMatch.All" class="mr-10 font-semibold">
+            <!-- Replace "Home" text with the image -->
+            <img src="SmashIcons/General.png" alt="Home" class="mr-2" />
+        </NavLink>
+        <nav class="flex ml-10 font-semibold text-gray-300 text-lg">
+            <NavLink ActiveClass="text-red-800 dark:text-red-400" href="create" class="font-semibold">Create</NavLink>
+        </nav>
+    </div>
+    <div class="flex items-center">
+        <DarkModeToggle />
+        <a class="flex items-center ml-8 hover:text-purple-400" target="_blank">
+            <LoginLogoutButton />
+        </a>
+    </div>
+</header>

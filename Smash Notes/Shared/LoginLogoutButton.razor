@@ -1,0 +1,13 @@
+﻿@inject NavigationManager NavigationManager
+@inject AuthenticationStateProvider AuthStateProvider
+@inject Smash_Notes.Server.Data.IAuthService AuthService
+
+<AuthorizeView>
+    <NotAuthorized>
+        <button class="btn btn-primary">Login</button>
+    </NotAuthorized>
+</AuthorizeView>
+
+@code {
+
+}
